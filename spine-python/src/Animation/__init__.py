@@ -1,4 +1,4 @@
-import Timeline
+import spine.Animation.Timeline
 
 class Animation(object):
     def __init__(self, name, timelines, duration):

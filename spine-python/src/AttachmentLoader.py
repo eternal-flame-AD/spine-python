@@ -1,6 +1,6 @@
-import Enum
+import spine.Enum
 
-AttachmentType = Enum.enum(region=0, 
+AttachmentType = spine.Enum.enum(region=0, 
                            regionSequence=1)
 
 class AttachmentLoader(object):

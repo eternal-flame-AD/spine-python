@@ -1,5 +1,5 @@
-from Bone import Bone
-from Slot import Slot
+from spine.Bone import Bone
+from spine.Slot import Slot
 
 class Skeleton(object):
     def __init__(self, skeletonData):

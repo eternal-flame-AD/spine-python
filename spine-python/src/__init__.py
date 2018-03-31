@@ -2,9 +2,7 @@ import logging
 
 logging.getLogger('spine').addHandler(logging.NullHandler())
 
-import AttachmentLoader
-from Atlas import *
-from RegionAttachment import *
-from Skeleton import *
-
-
+import spine.AttachmentLoader
+from spine.Atlas import *
+from spine.RegionAttachment import *
+from spine.Skeleton import *
